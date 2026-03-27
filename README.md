@@ -13,7 +13,7 @@ I build educational repositories and tools that help people learn AI agent syste
 
 ## 📚 AI Agent Learning Path
 
-A structured, 10-repository curriculum covering everything from basic agents to production collaboration frameworks. Each repo has working Python examples you can run immediately.
+A structured, 13-repository curriculum covering agent systems, prompt engineering, Cursor workflows, and evaluation-driven reliability. Each repo is designed to be practical, teachable, and implementation-oriented.
 
 | # | Repository | What You'll Learn |
 |---|-----------|-------------------|
@@ -27,6 +27,9 @@ A structured, 10-repository curriculum covering everything from basic agents to 
 | 8 | [agent-environment-interaction](https://github.com/dhirajkrsingh/agent-environment-interaction) | Environment design, partial observability, reward shaping |
 | 9 | [agent-planning-reasoning](https://github.com/dhirajkrsingh/agent-planning-reasoning) | STRIPS, HTN planning, chain-of-thought reasoning |
 | 10 | [agent-collaboration-frameworks](https://github.com/dhirajkrsingh/agent-collaboration-frameworks) | Role-based teams, conversation loops, pipeline orchestration |
+| 11 | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Prompt anatomy, grounding, few-shot design, chaining, validation |
+| 12 | [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) | Cursor prompts for discovery, planning, implementation, review, docs |
+| 13 | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Prompt evals, uncertainty handling, hallucination taxonomies, release gates |
 
 ## 🌍 Inspired By & References
 
