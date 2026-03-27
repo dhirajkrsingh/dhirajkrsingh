@@ -13,7 +13,7 @@ I build educational repositories and tools that help people learn AI agent syste
 
 ## 📚 AI Agent Learning Path
 
-A structured, 13-repository curriculum covering agent systems, prompt engineering, Cursor workflows, and evaluation-driven reliability. Each repo is designed to be practical, teachable, and implementation-oriented.
+A structured, 14-repository curriculum covering agent systems, prompt engineering, Cursor workflows, evaluation-driven reliability, and AI career transition paths. Each repo is designed to be practical, teachable, and implementation-oriented.
 
 | # | Repository | What You'll Learn |
 |---|-----------|-------------------|
@@ -30,6 +30,7 @@ A structured, 13-repository curriculum covering agent systems, prompt engineerin
 | 11 | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Prompt anatomy, grounding, few-shot design, chaining, validation |
 | 12 | [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) | Cursor prompts for discovery, planning, implementation, review, docs |
 | 13 | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Prompt evals, uncertainty handling, hallucination taxonomies, release gates |
+| 14 | [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | What to learn to switch into AI from any role, with bridge paths and plans |
 
 ## 🌍 Inspired By & References
 
