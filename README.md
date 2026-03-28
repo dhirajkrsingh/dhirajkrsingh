@@ -1,153 +1,141 @@
 # Dhiraj Singh
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-light.svg">
-  <img alt="Dhiraj Singh – neofetch-style profile card showing AI learning systems focus, VAIU Research Lab affiliation, and GitHub stats" src="https://raw.githubusercontent.com/dhirajkrsingh/dhirajkrsingh/main/assets/hero-light.svg" width="960">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/hero-light.svg">
+  <img alt="Dhiraj Singh - profile card showing AI systems, research lab focus, and ecosystem overview" src="assets/hero-light.svg" width="960">
 </picture>
 
-I build practical AI learning systems, reliability playbooks, and career-transition roadmaps through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
+I build AI systems, learning ecosystems, and reliability-first developer assets through [VAIU Research Lab](https://vaiu.ai/Research_Lab).
 
-My GitHub is organized around one idea: **learn AI through structured paths, real projects, and evaluation-driven thinking instead of random tutorials and hype.**
+This profile is organized around one idea: **build AI capability through structured systems, real implementation, and evaluation-driven judgment instead of hype, random tutorials, or shallow demos.**
+
+## Overview
+
+I am building a public AI ecosystem that sits at the intersection of:
+
+- multi-agent systems
+- prompt and workflow engineering
+- LLM evaluation and reliability
+- AI career transition infrastructure
+
+The goal is not to publish disconnected repositories.
+
+The goal is to build a body of work that helps people learn, build, and apply AI with more rigor than the usual online noise.
+
+## Why This Exists
+
+Most AI profiles fall into one of two traps:
+
+- scattered experiments with no clear system behind them
+- generic educational content with no implementation depth
+
+I am building in the gap between those two.
+
+This GitHub is meant to function as:
+
+1. a guided learning ecosystem
+2. a public proof-of-work portfolio
+3. a founder-style thesis around practical AI systems
 
 <!--LATEST_SECTION_START-->
 ## Latest
 
-Updated automatically on 27 Mar 2026 from the flagship repositories.
+Updated automatically on 28 Mar 2026 from the flagship repositories.
 
-- **27 Mar 2026** — [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns) — Reactive, BDI, layered, and utility-based agent design patterns with runnable examples.
-- **27 Mar 2026** — [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) — Practical Cursor workflows for repo discovery, planning, implementation, debugging, testing, and review.
-- **27 Mar 2026** — [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) — Evaluation patterns, release gates, and anti-hallucination techniques for developer-focused AI workflows.
+- **27 Mar 2026** — [agent-architecture-patterns](https://github.com/dhirajxai/agent-architecture-patterns) — Reactive, BDI, layered, and utility-based agent design patterns with runnable examples.
+- **27 Mar 2026** — [cursor-ai-development-workflows](https://github.com/dhirajxai/cursor-ai-development-workflows) — Practical Cursor workflows for repo discovery, planning, implementation, debugging, testing, and review.
+- **27 Mar 2026** — [llm-evals-and-anti-hallucination](https://github.com/dhirajxai/llm-evals-and-anti-hallucination) — Evaluation patterns, release gates, and anti-hallucination techniques for developer-focused AI workflows.
 
 Current emphasis: applied showcase work, reliability-first workflows, and structured AI learning paths.
 <!--LATEST_SECTION_END-->
 
-## What I Am Building
-
-This portfolio is designed for three groups:
-
-- people switching into AI from another role
-- developers who want reliable prompting and AI workflows
-- builders who want to understand multi-agent systems from the ground up
-
-The aim is not to publish disconnected repositories. The aim is to build a public AI learning ecosystem with clear routes, practical assets, and better judgment around reliability.
-
 ## Start Here
 
-Pick the path that matches what you want to do.
+Pick the route that matches your goal.
 
 | Goal | Start With | Then Move To |
 |------|------------|--------------|
-| **Switch into AI from another role** | [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | Prompting, evals, applied AI projects |
-| **Learn multi-agent systems** | [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | Architectures, coordination, planning, collaboration |
-| **Learn prompt engineering properly** | [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | Cursor workflows, evals, anti-hallucination |
-| **Build more reliable AI systems** | [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | Production workflows, review, iteration |
+| **Switch into AI from another role** | [ai-career-transition-roadmap](https://github.com/dhirajxai/ai-career-transition-roadmap) | Prompting, evals, applied AI projects |
+| **Learn multi-agent systems** | [multi-agent-system-basics](https://github.com/dhirajxai/multi-agent-system-basics) | Architectures, coordination, planning, collaboration |
+| **Learn prompt engineering properly** | [prompt-engineering-foundations](https://github.com/dhirajxai/prompt-engineering-foundations) | Cursor workflows, evals, anti-hallucination |
+| **Build more reliable AI systems** | [llm-evals-and-anti-hallucination](https://github.com/dhirajxai/llm-evals-and-anti-hallucination) | Production workflows, review, iteration |
 
 ## Flagship Work
 
-If you only open a few repositories, start with these:
+If you only open a few repositories, start here.
 
 | Repository | Why It Matters |
 |------------|----------------|
-| [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap) | My strongest differentiated repo for people moving into AI from software, data, QA, product, ops, or non-technical backgrounds |
-| [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics) | The cleanest entry point into the full agent systems track |
-| [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations) | The core prompt design repo for developers who want grounded, repeatable outputs |
-| [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination) | The reliability layer for testing prompt quality and reducing unsupported model behavior |
-| [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows) | Practical AI-assisted software development workflows across discovery, implementation, debugging, and review |
+| [ai-career-transition-roadmap](https://github.com/dhirajxai/ai-career-transition-roadmap) | The strongest differentiator in the ecosystem, designed for people moving into AI with role clarity, proof-of-work strategy, and founder-style opportunity thinking |
+| [multi-agent-system-basics](https://github.com/dhirajxai/multi-agent-system-basics) | The cleanest starting point for understanding how agent systems work from first principles |
+| [prompt-engineering-foundations](https://github.com/dhirajxai/prompt-engineering-foundations) | Practical prompt design for developers who want repeatable and grounded outputs |
+| [llm-evals-and-anti-hallucination](https://github.com/dhirajxai/llm-evals-and-anti-hallucination) | The reliability layer focused on evaluation, quality gates, and reducing unsupported model behavior |
+| [cursor-ai-development-workflows](https://github.com/dhirajxai/cursor-ai-development-workflows) | Real development workflows for building faster with AI while preserving structure and review quality |
 
-## What You Will Find Here
+## Ecosystem Map
 
-This profile is not a random collection of repos. It is a structured curriculum.
+This profile is best understood as four connected tracks rather than a flat repo list.
 
-### 1. Agent Systems Track
+### 1. Agent Systems
 
-- [multi-agent-system-basics](https://github.com/dhirajkrsingh/multi-agent-system-basics)
-- [agent-communication-protocols](https://github.com/dhirajkrsingh/agent-communication-protocols)
-- [agent-architecture-patterns](https://github.com/dhirajkrsingh/agent-architecture-patterns)
-- [distributed-agent-coordination](https://github.com/dhirajkrsingh/distributed-agent-coordination)
-- [agent-based-simulation](https://github.com/dhirajkrsingh/agent-based-simulation)
-- [autonomous-agent-design](https://github.com/dhirajkrsingh/autonomous-agent-design)
-- [agent-learning-algorithms](https://github.com/dhirajkrsingh/agent-learning-algorithms)
-- [agent-environment-interaction](https://github.com/dhirajkrsingh/agent-environment-interaction)
-- [agent-planning-reasoning](https://github.com/dhirajkrsingh/agent-planning-reasoning)
-- [agent-collaboration-frameworks](https://github.com/dhirajkrsingh/agent-collaboration-frameworks)
+- [multi-agent-system-basics](https://github.com/dhirajxai/multi-agent-system-basics)
+- [agent-communication-protocols](https://github.com/dhirajxai/agent-communication-protocols)
+- [agent-architecture-patterns](https://github.com/dhirajxai/agent-architecture-patterns)
+- [distributed-agent-coordination](https://github.com/dhirajxai/distributed-agent-coordination)
+- [agent-based-simulation](https://github.com/dhirajxai/agent-based-simulation)
 
-### 2. Prompting And Reliability Track
+### 2. Prompting And Reliability
 
-- [prompt-engineering-foundations](https://github.com/dhirajkrsingh/prompt-engineering-foundations)
-- [cursor-ai-development-workflows](https://github.com/dhirajkrsingh/cursor-ai-development-workflows)
-- [llm-evals-and-anti-hallucination](https://github.com/dhirajkrsingh/llm-evals-and-anti-hallucination)
+- [prompt-engineering-foundations](https://github.com/dhirajxai/prompt-engineering-foundations)
+- [cursor-ai-development-workflows](https://github.com/dhirajxai/cursor-ai-development-workflows)
+- [llm-evals-and-anti-hallucination](https://github.com/dhirajxai/llm-evals-and-anti-hallucination)
 
-### 3. Career Transition Track
+### 3. Career Transition
 
-- [ai-career-transition-roadmap](https://github.com/dhirajkrsingh/ai-career-transition-roadmap)
+- [ai-career-transition-roadmap](https://github.com/dhirajxai/ai-career-transition-roadmap)
 
-## Why This Stands Out
+### 4. Public Builder Workflow
 
-Most public AI profiles either show scattered experiments or generic learning lists.
+- a structured path from learning to implementation
+- an emphasis on evaluation and system quality rather than demo-only output
+- public artifacts that can serve as portfolio proof, creator leverage, or founder thesis material
 
-This one is organized around:
+## Founder Thesis
 
-- sequenced learning paths instead of disconnected repos
-- reliability and evaluation, not just generation
-- practical developer workflows, not only theory
-- career-transition assets that help people turn learning into proof of work
+I am not trying to build a profile that only signals activity.
 
-## Techniques And Areas Covered
+I am trying to build a profile that signals:
 
-These are the main systems and techniques I have been organizing and working through in public:
+1. systems thinking
+2. implementation discipline
+3. evaluation literacy
+4. educational product sense
+5. long-term ecosystem design
 
-- Multi-agent systems
-- Agent communication protocols
-- BDI, reactive, and utility-based architectures
-- Distributed coordination and consensus
-- Planning and reasoning patterns
-- Autonomous agent loops and self-correction
-- Q-learning, multi-agent learning, and evolutionary agents
-- Prompt anatomy and prompt chaining
-- Few-shot prompting and grounded generation
-- RAG, tool use, and agent workflows
-- LLM evals and anti-hallucination patterns
-- Cursor development workflows for discovery, implementation, review, and debugging
-- AI career transition paths from technical and non-technical roles
+That is why the repositories are sequenced, why evaluation shows up repeatedly, and why the strongest assets are built as reusable paths rather than isolated code dumps.
 
-## What To Do
+## Current Build Direction
 
-If you are new here, this is the recommended approach:
+Right now the emphasis is on turning the ecosystem into something more durable and more useful:
+
+- stronger AI career transition assets
+- more practical reliability and evaluation material
+- clearer multi-agent learning paths
+- better bridges from theory to applied showcase work
+
+## Operating Principle
+
+If you are using this work, the intended approach is simple:
 
 1. Pick one goal only.
 2. Start with the repo that matches that goal.
 3. Build as you learn.
 4. Use evaluation and proof of work as the standard, not passive reading.
 
-## What Not To Do
-
-These are the mistakes I want people to avoid:
-
-1. Do not start with advanced agents before understanding the basics.
-2. Do not rely only on prompt engineering and skip data, evaluation, and system design.
-3. Do not treat AI output as trustworthy without validation.
-4. Do not collect courses without building portfolio-quality work.
-5. Do not learn everything at once; choose the role and depth that match your target.
-
-## Current Focus
-
-I am building a public learning ecosystem around:
-
-- AI agent architectures
-- prompt engineering for developers
-- evaluation-driven AI reliability
-- practical AI career transition guidance
-
-## Proof And Direction
-
-This portfolio currently emphasizes structured learning systems.
-
-The next layer I am building is applied showcase work that demonstrates how these tracks connect in real implementation settings: learning path to project, prompt design to reliability, and agent concepts to practical system design.
-
 ## References And Inspiration
 
-These public ecosystems have strongly influenced the way I structure these repos:
+These public ecosystems influenced the way I think about structure, tooling, and open AI work:
 
 [![AutoGen](https://img.shields.io/badge/microsoft-autogen-blue)](https://github.com/microsoft/autogen)
 [![CrewAI](https://img.shields.io/badge/crewAIInc-crewAI-green)](https://github.com/crewAIInc/crewAI)
@@ -156,6 +144,9 @@ These public ecosystems have strongly influenced the way I structure these repos
 [![Mesa](https://img.shields.io/badge/projectmesa-mesa-purple)](https://github.com/projectmesa/mesa)
 [![Ray/RLlib](https://img.shields.io/badge/ray--project-ray-yellow)](https://github.com/ray-project/ray)
 
+## GitHub Snapshot
 
+![Dhiraj's GitHub stats](https://github-readme-stats.vercel.app/api?username=dhirajxai&show_icons=true&theme=default)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=dhirajxai&layout=compact&theme=default)
 
 If you are learning from these repositories, start with the repo that matches your goal and move in sequence instead of jumping randomly.

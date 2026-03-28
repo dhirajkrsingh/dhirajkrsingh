@@ -11,6 +11,7 @@ PROFILE_REPO = Path(__file__).resolve().parents[1]
 README_PATH = PROFILE_REPO / "README.md"
 START_MARKER = "<!--LATEST_SECTION_START-->"
 END_MARKER = "<!--LATEST_SECTION_END-->"
+GITHUB_USER = "dhirajxai"
 
 REPOS = [
     "ai-career-transition-roadmap",
@@ -27,7 +28,7 @@ def github_get(url: str) -> dict:
         url,
         headers={
             "Accept": "application/vnd.github+json",
-            "User-Agent": "dhirajkrsingh-profile-readme-updater",
+            "User-Agent": f"{GITHUB_USER}-profile-readme-updater",
             **(
                 {"Authorization": f"Bearer {os.environ['GITHUB_TOKEN']}"}
                 if os.environ.get("GITHUB_TOKEN")
@@ -40,7 +41,7 @@ def github_get(url: str) -> dict:
 
 
 def fetch_repo(repo_name: str) -> dict:
-    return github_get(f"https://api.github.com/repos/dhirajkrsingh/{repo_name}")
+    return github_get(f"https://api.github.com/repos/{GITHUB_USER}/{repo_name}")
 
 
 def render_latest_section(repos: list[dict]) -> str:
@@ -54,7 +55,7 @@ def render_latest_section(repos: list[dict]) -> str:
     for repo in repos[:3]:
         pushed = datetime.fromisoformat(repo["pushed_at"].replace("Z", "+00:00")).strftime("%d %b %Y")
         lines.append(
-            f"- **{pushed}** — [{repo['name']}](https://github.com/dhirajkrsingh/{repo['name']})"
+            f"- **{pushed}** — [{repo['name']}](https://github.com/{GITHUB_USER}/{repo['name']})"
             f" — {repo['description']}"
         )
     lines.extend(

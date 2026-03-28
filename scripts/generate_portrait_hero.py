@@ -10,7 +10,8 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
 ASSETS = ROOT / "assets"
-USER_API = "https://api.github.com/users/dhirajkrsingh"
+GITHUB_USER = "dhirajxai"
+USER_API = f"https://api.github.com/users/{GITHUB_USER}"
 
 # Dark-to-light: dense chars represent dark pixels, spaces represent light.
 _ASCII_RAMP = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^`'. "
@@ -19,7 +20,7 @@ _ASCII_RAMP = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,
 def fetch_user_data() -> dict:
     headers = {
         "Accept": "application/vnd.github+json",
-        "User-Agent": "dhirajkrsingh-profile-hero-generator",
+        "User-Agent": f"{GITHUB_USER}-profile-hero-generator",
     }
     if os.environ.get("GITHUB_TOKEN"):
         headers["Authorization"] = f"Bearer {os.environ['GITHUB_TOKEN']}"
@@ -30,7 +31,7 @@ def fetch_user_data() -> dict:
 
 def fetch_image_bytes(url: str) -> bytes:
     req = urllib.request.Request(
-        url, headers={"User-Agent": "dhirajkrsingh-profile-hero-generator"}
+        url, headers={"User-Agent": f"{GITHUB_USER}-profile-hero-generator"}
     )
     with urllib.request.urlopen(req, timeout=20) as r:
         return r.read()
@@ -128,7 +129,6 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
     COL    = 22    # column width for dot-leader calculation
 
     repos     = user.get("public_repos", 0)
-    followers = user.get("followers",    0)
 
     def kv(y, key, val, vc=None):
         vc = vc or val_col
@@ -159,7 +159,7 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
     parts.append(
         f'  <text x="{W // 2}" y="25" text-anchor="middle"'
         f' font-family="\'Courier New\', Courier, monospace"'
-        f' font-size="12" fill="{dim}">dhirajkrsingh@github \u2014 overview</text>'
+        f' font-size="12" fill="{dim}">{GITHUB_USER}@github \u2014 overview</text>'
     )
 
     # ── ASCII art (left panel, green) ─────────────────────────────────────
@@ -179,20 +179,19 @@ def neofetch_svg(theme: str, ascii_lines: list[str], user: dict) -> str:
     iy += LH * 1.3
 
     # identity rows
-    parts.append(kv(iy, "Focus",     "AI Learning Systems",               vc=hi_col));    iy += LH
-    parts.append(kv(iy, "Role",      "Researcher & Curriculum Architect"           ));    iy += LH
-    parts.append(kv(iy, "Lab",       "VAIU Research Lab",                  vc=lab_col));  iy += LH
-    parts.append(kv(iy, "Location",  "India"                                        ));   iy += LH * 1.5
+    parts.append(kv(iy, "Role",      "AI Systems Builder & Researcher"             ));    iy += LH
+    parts.append(kv(iy, "Host",      "VAIU Research Lab",                  vc=lab_col));  iy += LH
+    parts.append(kv(iy, "Focus",     "Agents · Evals · Learning Systems",  vc=hi_col));   iy += LH
+    parts.append(kv(iy, "Mode",      "Founder-style public build system"            ));    iy += LH * 1.5
 
     # technical rows
-    parts.append(kv(iy, "Languages", "Python, Markdown, YAML"                       ));   iy += LH
-    parts.append(kv(iy, "Tracks",    "Prompt Eng · Multi-Agent · Career", vc=hi_col)); iy += LH
-    parts.append(kv(iy, "Tools",     "LLMs, RAG, Cursor AI, GitHub"                 ));   iy += LH
-    parts.append(kv(iy, "Repos",     f"{repos} public repositories",       vc=stats_col)); iy += LH
-    parts.append(kv(iy, "Followers", str(followers)                                  ));   iy += LH * 1.5
+    parts.append(kv(iy, "Stack",     "Python, Prompting, RAG, Agent Workflows"     ));   iy += LH
+    parts.append(kv(iy, "Tracks",    "Career AI · Reliability · Multi-Agent", vc=hi_col)); iy += LH
+    parts.append(kv(iy, "Output",    "Repos, systems, roadmaps, proof-of-work"     ));   iy += LH
+    parts.append(kv(iy, "Repos",     f"{repos} public repositories",       vc=stats_col)); iy += LH * 1.5
 
-    # stats section sub-header
-    parts.append(_text(INFO_X, iy, lab_col, "\u2500 GitHub Stats " + "\u2500" * 36))
+    # brand section sub-header
+    parts.append(_text(INFO_X, iy, lab_col, "\u2500 Builder Signals " + "\u2500" * 33))
     iy += LH * 1.4
 
     # colour palette swatches
